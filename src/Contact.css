@@ -1,0 +1,145 @@
+/* General styles */
+.get-in-touch {
+    font-family: Arial, sans-serif;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:flex-start;
+    height: 70vh;
+    background-color: #f9f9f9;
+  }
+  
+  .header-section {
+    text-align: center;
+    margin-bottom: 5px;
+  }
+  
+  .header-section h1 {
+    font-size: 2rem;
+    color: #333;
+  }
+  
+  .header-section p {
+    font-size: 1rem;
+    color: #555;
+    margin-top: 5px;
+  }
+  
+  /* Content Section */
+  .content-section {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap; /* Ensure items wrap on smaller screens */
+    width: 100%;
+    max-width: 1000px;
+  }
+  
+  .left-section,
+  .right-section {
+    flex: 1;
+    min-width: 300px; /* Minimum width for responsiveness */
+    max-width: 500px;
+    background-color: #ffffff;
+    padding: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+  }
+  
+  .left-section h2,
+  .right-section h2 {
+    font-size: 1rem;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .left-section p {
+    font-size: 1rem;
+    color: #555;
+    margin-bottom: 10px;
+  }
+  
+  /* Form styles */
+  .contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .contact-form input,
+  .contact-form textarea {
+    width: 100%;
+    padding: 12px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .contact-form textarea {
+    resize: none;
+  }
+  
+  .contact-form .file-label {
+    font-size: 0.9rem;
+    color: #555;
+    cursor: pointer;
+  }
+  
+  .contact-form .send-button {
+    background-color: #007bff;
+    color: white;
+    padding: 12px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .contact-form .send-button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    /* For tablets: Adjust the layout */
+    .content-section {
+      flex-direction: column; /* Stack sections vertically */
+      align-items: center;
+      gap: 10px;
+    }
+  
+    .left-section,
+    .right-section {
+      max-width: 90%; /* Reduce width for smaller screens */
+    }
+  }
+  
+  @media (max-width: 480px) {
+    /* For mobile: Adjust font sizes and paddings */
+    .header-section h1 {
+      font-size: 2rem;
+    }
+  
+    .header-section p {
+      font-size: 1rem;
+    }
+  
+    .left-section,
+    .right-section {
+      padding: 15px;
+    }
+  
+    .contact-form input,
+    .contact-form textarea {
+      padding: 10px;
+      font-size: 0.9rem;
+    }
+  
+    .contact-form .send-button {
+      font-size: 0.9rem;
+      padding: 10px;
+    }
+  }  

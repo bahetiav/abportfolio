@@ -1,0 +1,52 @@
+[
+    {
+      "id":"Z1",
+      "name": "RookieUp",
+      "description": "Mentorship for creatives.",
+      "image": "rokei.jpg",
+      "url": "https://example.com/rookieup",
+      "gitPath": "https://github.com/user/rookieup",
+      "youtube": "https://www.youtube.com/watch?v=NdrnqeIdphk",
+      "medium":"https://medium.com/notes-and-theories/this-man-controls-40-of-the-internet-and-its-a-problem-1b37a66e6185",
+      "category": "Digital Design",
+      "subCategory": "ML Program",
+      "tag": ["AI","ML","superComputer"],
+      "isActive": true
+    },
+    {
+      "id":"Z2",
+      "name": "Letterly",
+      "description": "Thank you card designs.",
+      "image": "letterly.jpg",
+      "url": "https://example.com/letterly",
+      "gitPath": "https://github.com/user/letterly",
+      "category": "Illustration",
+      "subCategory": "ML Program",
+      "tag": ["AI","ML","superComputer"],
+      "isActive": true
+    },
+    {
+      "id":"Z3",
+      "name": "Quickdraw",
+      "description": "Dynamic artwork generation.",
+      "image": "quickdraw.jpg",
+      "url": "https://example.com/quickdraw",
+      "category": "Print Design",
+      "subCategory": "ML Program",
+      "medium":"https://medium.com/notes-and-theories/this-man-controls-40-of-the-internet-and-its-a-problem-1b37a66e6185",
+      "tag": [],
+      "isActive": true
+    },
+    {
+      "id":"Z4",
+      "name": "New Project Added",
+      "description": "Lorem ipsum is a corrupted version of De finibus bonorum et malorum, a 1st-century BC text by Cicero. The text is nonsensical and improper Latin, with words altered, added, and removed. The first two words are a truncation of dolorem ipsum, which means \"pain itself\".",
+      "image": "logo512.jpg",
+      "url": "https://example.com/newproject",
+      "gitPath": "https://github.com/user/quickdraw",
+      "category": "Print Design",
+      "subCategory": "ML Program",
+      "tag": ["help"],
+      "isActive": true
+    }
+  ]
