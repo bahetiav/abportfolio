@@ -1,0 +1,29 @@
+[
+    {
+      "name": "RookieUp",
+      "description": "Mentorship for creatives.",
+      "image": "rokei.jpg",
+      "url": "https://example.com/rookieup",
+      "gitPath": "https://github.com/user/rookieup",
+      "category": "Digital Design",
+      "isActive": true
+    },
+    {
+      "name": "Letterly",
+      "description": "Thank you card designs.",
+      "image": "letterly.jpg",
+      "url": "https://example.com/letterly",
+      "gitPath": "https://github.com/user/letterly",
+      "category": "Illustration",
+      "isActive": true
+    },
+    {
+      "name": "Quickdraw",
+      "description": "Dynamic artwork generation.",
+      "image": "quickdraw.jpg",
+      "url": "https://example.com/quickdraw",
+      "gitPath": "https://github.com/user/quickdraw",
+      "category": "Print Design",
+      "isActive": true
+    }
+  ]
